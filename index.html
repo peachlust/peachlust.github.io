@@ -308,10 +308,10 @@
       document.querySelector(".content h6").innerText = l.title;
       document.querySelector(".dns-list li:nth-child(1) span").innerText =
         l.main;
-      document.querySelector(".dns-list li:nth-child(2) span").innerText =
-        l.backup1;
-      document.querySelector(".dns-list li:nth-child(3) span").innerText =
-        l.backup2;
+      // document.querySelector(".dns-list li:nth-child(2) span").innerText =
+      //   l.backup1;
+      // document.querySelector(".dns-list li:nth-child(3) span").innerText =
+      //   l.backup2;
     }
     // 监听选择
     document.querySelectorAll(".lang-option").forEach((opt) => {
@@ -330,14 +330,14 @@
         name: "主线路",
         url: `https://peachlust.com/${langParam}`,
       },
-      {
-        name: "备用线路1",
-        url: `https://peachlust.com/${langParam}`,
-      },
-      {
-        name: "备用线路2",
-        url: `https://peachlust.com/${langParam}`,
-      },
+      // {
+      //   name: "备用线路1",
+      //   url: `https://peachlust.com/${langParam}`,
+      // },
+      // {
+      //   name: "备用线路2",
+      //   url: `https://peachlust.com/${langParam}`,
+      // },
     ];
 
     const dnsList = document.querySelector(".dns-list");
